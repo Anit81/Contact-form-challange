@@ -60,7 +60,7 @@ margin-top:5px;
 }
 .inserting-input{
   padding-left:26px;
-  font-weight: 900;
+  font-weight: 100;
   margin-top: 5px;
 }
 .inserting-input::placeholder{
