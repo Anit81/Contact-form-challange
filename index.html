@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="style.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+   <form>
+     <div class="form-container">
+      <h1>Contact Us</h1>
+
+       <div class="name-container">
+        <div class="first-name">
+           <p>First Name*</p>
+           <input type="text" class="label-name" id="input-first-name"/>
+        </div>
+    
+       <div class="last-name"> 
+          <p >Last Name *</p>
+          <input type="text" class="label-name" id="last-name"/>
+       </div>
+       </div>
+    
+   
+         <p>Email Address *</p>
+         <input type="email" class="email-input" id="email-input" required/>
+         <p>Query Type *</p>
+       <div class="radio-group">
+       <div class="each">
+         <input type="radio" name="query" class="inserting radioButtons" id="radioButton1"/><input placeholder="General Enquiry" class="inserting-input" readonly/>
+       </div>
+       <div class="each">
+          <input type="radio" name="query" class="inserting radioButtons" id="radioButton2"/> <input placeholder="Support Request" class="inserting-input" readonly/>
+       </div>
+       </div>
+
+         <p>Message *</p>
+         <textarea rows="6" class="message jsMessage"></textarea>
+
+       <div class="checkbox-group">
+         <input type="checkbox" id="consent"/>
+         <label >I consent to being contacted by the team *</label>
+       </div>
+
+        <button onclick="general(event)" class="submit">Submit</button>
+     </div>
+  </form>
+ <script src="script.js"></script>
+</body>
+</html>
