@@ -8,7 +8,8 @@ The form includes input fields for first name, last name, email address, query t
 
 ## 🌐 Live Demo
 
-➡️ [Click here to view the live project](https://anit81.github.io/contact-form-challenge/)
+➡️ [Click here to view the live project](https://anit81.github.io/Contact-form-challange/
+)
 
 ---
 
