@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   <title>Contact Us</title>
+   <title>Contact Form</title>
    <link rel="stylesheet" href="style.css"/>
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -36,13 +36,15 @@
           <input type="radio" name="query" class="inserting radioButtons" id="radioButton2"/> <input placeholder="Support Request" class="inserting-input" readonly/>
        </div>
        </div>
-
-         <p>Message *</p>
+          <div class="messages-div">
+             <p>Message *</p>
          <textarea rows="6" class="message jsMessage"></textarea>
+          </div>
+        
 
        <div class="checkbox-group">
          <input type="checkbox" id="consent"/>
-         <label >I consent to being contacted by the team *</label>
+         <label class="consent-label">I consent to being contacted by the team *</label>
        </div>
 
         <button onclick="general(event)" class="submit">Submit</button>
