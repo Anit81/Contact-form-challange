@@ -54,7 +54,7 @@ position: relative;
   margin-left:5px;
   position: absolute;
  top:10%;
-margin-top:5px;
+margin-top:7px;
 
   
 }
@@ -123,6 +123,7 @@ button{
     flex-direction: column;
   }
   .inserting{
+    margin-top:5px;
    flex: 1;
    top:6px;
   }
